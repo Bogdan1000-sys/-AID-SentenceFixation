@@ -3,7 +3,7 @@ const modifier = (text) => {
 
     function subModify() {
         if (processedText[0] !== " ") {
-            processedText = ` ${processedText} [${actionCount}]`;
+            processedText = ` ${processedText}`;
         }
     }
 
